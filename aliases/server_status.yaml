@@ -20,7 +20,7 @@ result:
           value: "{{ execution.result.stdout|regex_replace('(?!SUCCESS).', '')|wordcount }}"
           short: true
         - title: Dead
-          value: "{{ execution.result.stdout|regex_replace('(?!UNREACHABLE).', '')|wordcout }}"
+          value: "{{ execution.result.stdout|regex_replace('(?!UNREACHABLE).', '')|wordcount }}"
           short: true
       footer: "{{ execution.id }}"
       footer_icon: "https://stackstorm.com/wp/wp-content/uploads/2015/01/favicon.png"

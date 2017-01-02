@@ -16,5 +16,5 @@
         name: "{{ package }}"
         state: latest
         update_cache: yes
-        cache_vaild_time: 600
+        cache_valid_time: 600
       when: is_installed.rc == 0
